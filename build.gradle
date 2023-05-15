@@ -10,17 +10,11 @@ sourceCompatibility = '17'
 
 repositories {
 	mavenCentral()
-	
-	flatDir {
-       dirs("src/main/resources")
-   }
-	
+
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation ':support' 
+
 }
 
 tasks.named('test') {
